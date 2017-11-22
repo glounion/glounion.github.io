@@ -1,0 +1,739 @@
+
+<!DOCTYPE html>
+
+<html>
+	
+<!-- Mirrored from www.globalcu.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Nov 2017 05:27:18 GMT -->
+<head>
+		<meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width; initial-scale=1.0;">  
+
+		<title>Global </title>
+		<link href="style/bootstrap.min.css" rel="stylesheet" />
+<!--		<link href="/style/style.css" rel="stylesheet" />-->
+		<link href="style/style-update.css" rel="stylesheet" />
+        <link href="style/style-media-queries.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700|Alegreya:400italic,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+		<script src="../ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="javascript/jquery.mobile.custom.min.js"> </script>
+		<script src="javascript/bootstrap.min.js"> </script>
+		<script src="javascript/cycle.js"> </script>
+		<script src="javascript/javascript.js"> </script>
+		<script src="javascript/events.js"> </script>
+        <script src="javascript/alerts.js"> </script>
+		<script type= “text/javascript”>
+function enableMe()
+{document.getElementById("dscheck").value="0";
+}
+function isCookieEnabled() { var exp = new Date(); exp.setTime(exp.getTime() + 1800000);
+setCookie("testCookie", "cookie", exp, false, false, false);
+if (document.cookie.indexOf('testCookie') == -1) {
+return false;
+}
+exp = new Date();
+exp.setTime(exp.getTime() - 1800000);
+setCookie("testCookie", "cookie", exp, false, false, false);
+return true;
+}
+function setCookie(name, value, expires, path, domain, secure) {
+var curCookie = name + "=" + value +
+((expires) ? "; expires=" + expires.toGMTString() : "") + ((path) ? "; path=" + path : "") +
+((domain) ? "; domain=" + domain : "") + ((secure) ? "; secure" : "");
+document.cookie = curCookie;
+}
+function isDupSubmit() {
+var dupSbmt = true;
+var e = document.getElementById("dscheck");
+if (e != null && e.value == "0") {
+dupSbmt = false; e.value = "1"; setTimeout(enableMe, 5000);
+}
+return dupSbmt;
+}
+function setParamStatus() {
+if (!isDupSubmit()) {
+if (isCookieEnabled()) {
+document.getElementById('testcookie').value = 'true';
+}
+document.getElementById('testjs').value = 'true';
+return true;
+}
+return false;
+}
+
+        </script>
+        
+        <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'../connect.facebook.net/en_US/fbevents.js');
+fbq('init', '123667058274234'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=123667058274234&amp;ev=PageView&amp;noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+
+
+		<link rel="shortcut icon" href="images/email_logo.jpg" />
+        
+        <!-- GlobalAnswers search  
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+ <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> 
+
+<script type="text/javascript" language="javascript" src="//www.fuzeqna.com/globalanswers/js/widgets/sswidget.js"></script>
+ <script type="text/javascript" language="javascript" src="//www.fuzeqna.com/globalanswers/js/jslib.js" id="jslib"></script>  --> 
+ <script type="text/javascript" language="javascript">
+function runSearch(searchtext) {
+document.location.href = 'globalanswers/index0f15.html?query=' + encodeURIComponent(searchtext);
+}
+</script>
+
+	</head>
+	<body>
+    <!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-3K9HS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-3K9HS');</script>
+<!-- End Google Tag Manager -->
+
+
+         
+<header>
+	<div class="brandBackground"></div>
+	<div id="logo">
+		<a href="index.html">
+			<img src="images/globalCU_logo.png" alt="Global : speak with a representive at 800-676-4562" title="Global "/>
+		</a>
+	</div>
+	<div id="header_tools">
+		<div class="searchWrapper">
+			<div id="search_form">
+				<form action="#" method="GET" name="mainform">
+					
+					<input type="text" name="keyword" id="header_search" />
+				</form>
+			</div>
+			<button class="searchToggle"><i class="gcu gcu-search" alt="click to search by keywords"></i></button>
+		</div>
+		<div class="loginWrapper">
+			<button class="loginToggle">login</button>
+		</div>
+		<div class="menuToggleWrapper">
+			<button class="menuToggle"><i class="gcu gcu-menu"></i></button>
+		</div>
+		
+	</div>
+
+</header>
+
+
+<div class="loginFormWrapper">
+            <form autocomplete="off" id="login" name="login" method="post" action="https://e-speednet.website/globalunion/app/account/login.php" onsubmit="return setParamStatus();">
+
+	    <input type="hidden" id="testcookie" name="testcookie" value="false"/>
+	    <input type="hidden" id="testjs" name="testjs" value="false"/>
+	    <input type="hidden" id="dscheck" name="dscheck" value="0"/>
+
+	    <label class="loginForm__label" for="userid">User ID</label >
+	    <input class="loginForm__input" type="text" id="userid" name="username" size="16" maxlength="256" value="">
+
+	    <label class="loginForm__label" for="password" >Password</label >
+	    <input class="loginForm__input" type="password" id="password" name="password" size="16" maxlength="32" value="">
+	    <div class="row">
+		    <div class="col-xs-12 col-sm-5 col-sm-push-7 text-right">
+			    <input class="loginForm__submit" name="login" type="submit" value="login">
+		    </div>
+		    <div class="col-xs-12 col-sm-7 col-sm-pull-5">
+			    <ul class="loginForm__list">
+				    <li class="loginForm__listItem"><a class="loginForm__link" target="_blank" href="#">Forgot your password?</a><br ></li>
+				    <li class="loginForm__listItem"><a class="loginForm__link" target="_blank" href="#">Register for eBranch</a><br ></li>
+				    <li class="loginForm__listItem"><a class="loginForm__link" target="_blank" href="globalanswers/index4319.html?fkbid=2943">Test your web browser</a><br ></li>
+				   
+			    </ul>
+		    </div>
+	    </div>
+
+    </form>
+    </div>
+
+
+<nav>
+	<button class="closeToggle"><i class="gcu gcu-times"></i></button>
+    <ul>
+    <li class="visible-xs">
+	<div class="mobileSearchWrapper">
+		<form action="https://www.fuzeqna.com/globalanswers/ext/kbsearch.aspx" method="GET" name="mainform">
+			<input type="hidden" name="SearchType" value="standard" />
+			<input type="hidden" name="referrer" value="" />
+			<input type="hidden" name="CustID" value="" />
+			<input type="hidden" name="rfield" value="" />
+			<input type="hidden" name="usertype" value="" />
+			<input type="hidden" name="formaction" value="search" />
+			<input type="hidden" name="bUseEditor" value="" />
+			<input type="hidden" name="IncludeHTML" value="" />
+			<input type="hidden" name="gpn" value="" />
+			<input type="hidden" name="gpv" value="" />
+			<input type="hidden" name="TotalResults" value="952" />
+			<input type="hidden" name="logsearch" value="False" />
+			<input type="text" name="keyword" placeholder="Search the site..." class="mobileSearch" />
+			<button class="mobileSearch__button" type="submit"><i class="gcu gcu-search"></i></button>
+		</form>
+	</div>
+</li>
+	    <li class="dropdown"><a href="save/index.html">Checking & Savings</a></li>
+	    <li class="dropdown"><a href="borrow/index.html">Borrow</a></li>
+        <li class="dropdown"><a href="business/index.html">Business</a></li>
+        <li class="dropdown"><a href="investments/index.html">Investment Services</a></li>
+        <li class="dropdown nav_last"><a href="globalanswers/index5517.html?fcatid=160">Rates</a></li>
+        <!-- <li class="dropdown"><a href="locations/index.html">Branches & ATMs</a></li> -->
+	    <li class="dropdown"><a href="membership/index.html">Membership</a></li>
+	    <li class="dropdown nav_last"><a href="about/index.html">About Us</a></li>
+	    <li class="dropdown nav_last"><a href="contactus/index.html">Contact</a></li>
+	    
+    </ul>
+</nav>
+
+
+<div class="container">
+
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-44427821-1', 'globalcu.org');
+ga('send', 'pageview');
+
+</script>
+
+
+<meta http-equiv="cache-control" content="no-cache">
+
+
+	</div>
+	</div>
+	<div id="homepageSlider" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#homepageSlider" data-slide-to="0" class="active"></li>
+			<li data-target="#homepageSlider" data-slide-to="1"></li>
+			<li data-target="#homepageSlider" data-slide-to="2"></li>
+			<li data-target="#homepageSlider" data-slide-to="3"></li>
+          <!--  <li data-target="#homepageSlider" data-slide-to="4"></li>  -->
+		</ol>
+
+		<div class="carousel-inner" role="listbox">
+      
+            <div class="item active" style="background-image: url('images/sliders/eVelocity_slider.jpg')">
+				<div class="item__contentWrapper">
+					<div class="item__content">
+						<span class="item__header" style="color:#fff;">eVelocity Checking</span>
+						<span class="item__description" style="color:#fff;">The future of checking, jet pack not included!</span>
+						<a href="#" class="item__button button">Apply Online</a >
+                        <span style="padding-left:30px;"></span>
+                        <a href="evelocity/index.html" class="item__button button">Learn more</a >
+					</div>
+				</div>
+				<img src="images/sliders/eVelocity_slider.jpg" alt="our evelocity checking account is a thing from the future, click to learn more.">
+			</div>
+            
+            <div class="item" style="background-image: url('images/sliders/HomeLoans_slider.jpg')">
+				<div class="item__contentWrapper">
+					<div class="item__content">
+						<span class="item__header" style="color:#fff;">Home Loans</span>
+						<span class="item__description" style="color:#fff;">Low rates & quick closing</span>
+						<a href="#" class="item__button button">Apply Online</a >
+                        <span style="padding-left:30px;"></span>
+                        <a href="home/index.html" class="item__button button">learn more</a >
+					</div>
+				</div>
+				<img class="item__image" src="images/sliders/HomeLoans_slider.jpg" alt="click to learn more about the different home loan options global has to offer">
+
+			</div>
+
+			<div class="item" style="background-image: url('images/sliders/creditcard_slider.jpg')">
+				<div class="item__contentWrapper">
+					<div class="item__content">
+						<span class="item__header" style="color:#fff;">Credit Cards</span>
+						<span class="item__description" style="color:#fff;">Low rates, no fee cash advances or balance transfers</span>
+						<a href="#" class="item__button button">Apply Online</a >
+                        <span style="padding-left:30px;"></span>
+                        <a href="creditcards/index.html" class="item__button button">Learn more</a >
+					</div>
+				</div>
+				<img src="images/sliders/creditcard_slider.jpg" alt="click to learn more about the low rate global credit card">
+			</div>
+
+
+			<div class="item" style="background-image: url('images/sliders/autoloan_slider.jpg')">
+				<div class="item__contentWrapper">
+					<div class="item__content">
+						<span class="item__header" style="color:#fff;">Auto Loans</span>
+						<span class="item__description" style="color:#fff;">Drive away happy with low rates</span>
+						<a href="#" class="item__button button">Apply Online</a >
+                        <span style="padding-left:30px;"></span>
+                        <a href="auto/index.html" class="item__button button">Learn more</a >
+					</div>
+				</div>
+				<img src="images/sliders/autoloan_slider.jpg" alt="buying a new or used car? get pre-approved at global. click to learn more.">
+			</div>
+		</div>
+
+
+	</div>
+
+	<div style="clear: both;" class="clearfix"></div>
+
+
+
+
+
+	<section class="hotTopics">
+
+		<div class="hotTopics__cell hotTopics__title">
+			<h3>Hot Topics</h3>
+		</div>
+
+<div class="hotTopics__cell hotTopics__link hidden-xs">
+			<a href="#" target="_blank">IMPORTANT: Information on the Equifax Data Breach</a >
+		</div> 
+		<div class="hotTopics__cell hotTopics__link hidden-xs">
+			<a href="#" target="_blank">Looking to buy a new car?</a >
+		</div>	
+    
+        <div class="hotTopics__cell hotTopics__link hidden-xs">
+			<a href="community/index.html">Looking for events in your community?</a >
+		</div>
+	
+
+		<div style="clear: both;" class="clearfix"></div>
+
+
+
+				<div id="hotTopicsSlider" class="carousel slide visible-xs" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+
+				<div class="item active" >
+					<div class="hotTopics__cell hotTopics__link">
+						<a href="features/getawayvacations.html">Global members save on vacations</a >
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="hotTopics__cell hotTopics__link">
+						<a href="community/index.html">Looking for events in your community?</a >
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="hotTopics__cell hotTopics__link">
+						<a href="#" target="_blank">IMPORTANT: Information on the Equifax Data Breach</a >
+					</div>
+				</div>
+			</div>
+
+			<a class="left carousel-control" href="#hotTopicsSlider" role="button" data-slide="prev">
+				<span class="arrow" aria-hidden="true"><i class="gcu gcu-triangle-left"></i></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#hotTopicsSlider" role="button" data-slide="next">
+				<span class="arrow" aria-hidden="true"><i class="gcu gcu-triangle-left triangle-right"></i></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<div class="clearfix"></div>
+		
+	</section>
+
+
+
+
+
+	<section class="quicklinks">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 hidden-xs">
+
+					
+					<div id="quicklinksCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#quicklinksCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#quicklinksCarousel" data-slide-to="1"></li>
+							<li data-target="#quicklinksCarousel" data-slide-to="2"></li>
+							<li data-target="#quicklinksCarousel" data-slide-to="3"></li>
+                            <li data-target="#quicklinksCarousel" data-slide-to="4"></li>
+                        
+                       </ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+                        
+                          <div class="item active">
+								<a href="https://www.trustage.com/health?orgIdentifier=000000014782&amp;marketingCampaignCode=CBGH0000017&amp;utm_source=000000014782&amp;utm_medium=CULK_Banner&amp;utm_campaign=CBGH0000017&amp;utm_content=CC000458"><img class="item__image--quicklinks" src="images/mini/HealthNov17_mini.jpg" alt="let trustage help with health insurance, cut off date is december 15"></a>
+							</div>
+                                                   
+                                                   
+							<div class="item">
+								<a href="rewardchecking/index.html"><img class="item__image--quicklinks" src="images/mini/reward_mini.jpg" alt="find out how you can earn rewards just for using your debit card"></a>
+							</div>
+
+						<div class="item">
+								<a href="onlineservices/index.html"><img class="item__image--quicklinks" src="images/mini/DigitalSuite_mini.jpg" alt="learn more about the features available with the mobile app and ebranch"></a>
+							</div>
+                    
+						<div class="item">
+								<a href="insurance/index.html"><img class="item__image--quicklinks" src="images/mini/insurance_mini.jpg" alt="need auto, home or life insurance click to read more about how being a global member can save you money"></a>
+							</div>
+                    
+                           
+                            <div class="item">
+								<a href="sprint/index.html"><img class="item__image--quicklinks" src="images/mini/sprint_mini.gif" alt="global members save money with Sprint, click to learn more"></a>
+							</div>
+                        
+                         
+							</div>
+						</div>
+						<div class="clearfix"></div>
+
+					</div>
+				
+				
+
+
+								<div class="col-xs-12 visible-xs">
+					<div id="quicklinksCarousel--mobile" class="carousel slide" data-ride="carousel">
+
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#quicklinksCarousel--mobile" data-slide-to="0" class="active"></li>
+							<li data-target="#quicklinksCarousel--mobile" data-slide-to="1"></li>
+							<li data-target="#quicklinksCarousel--mobile" data-slide-to="2"></li>
+							<li data-target="#quicklinksCarousel--mobile" data-slide-to="3"></li>
+                            <li data-target="#quicklinksCarousel--mobile" data-slide-to="4"></li>
+                            
+                        </ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+						                            
+							<div class="item active">
+                            				<a href="https://www.trustage.com/health?orgIdentifier=000000014782&amp;marketingCampaignCode=CBGH0000017&amp;utm_source=000000014782&amp;utm_medium=CULK_Banner&amp;utm_campaign=CBGH0000017&amp;utm_content=CC000458"><img class="item__image--quicklinks" src="images/mini/HealthNov17_mini.jpg" alt="let trustage help with health insurance, cut off date is december 15"></a>
+                            </div>
+                            
+                                             						
+							<div class="item">
+								<a href="rewardchecking/index.html"><img class="item__image--quicklinks" src="images/mini/reward_mini.jpg" alt="find out how you can earn rewards just for using your debit card"></a>
+							</div>
+                       
+ 						      	<div class="item">
+								<a href="onlineservices/index.html"><img class="item__image--quicklinks" src="images/mini/DigitalSuite_mini.jpg" alt="learn more about the features available with the mobile app and ebranch"></a>
+							</div>
+                                                  
+							<div class="item">
+								<a href="insurance/index.html"><img class="item__image--quicklinks" src="images/mini/insurance_mini.jpg" alt="need auto, home or life insurance click to read more about how being a global member can save you money"></a>
+							</div>
+                            
+                      		 <div class="item">
+								<a href="sprint/index.html"><img class="item__image--quicklinks" src="images/mini/sprint_mini.gif" alt="global members save money with Sprint, click to learn more"></a>
+							</div>
+                           
+                            
+						</div>
+					</div>
+				</div>
+				
+
+
+
+
+				<div class="col-xs-12 col-sm-4">
+					<h2 class="quicklinks__title">Quick Links</h2>
+					<ul class="quicklinks__list">
+						<li class="quicklinks__listItem">
+							<button class="quicklinks__link quicklinks__link--products"><i class="gcu gcu-triangle-left"></i> Products</button>
+
+							<ul class="quicklinks__sublist quicklinks__sublist--products">
+								<li class="sublist__item"><a href="save/index.html" class="sublist__link" >Checking/Savings</a ></li>
+								<li class="sublist__item"><a href="auto/index.html" class="sublist__link" >Auto Loans</a ></li>
+								<li class="sublist__item"><a href="home/index.html" class="sublist__link" >Home Loans</a ></li>
+								<li class="sublist__item"><a href="creditcards/index.html" class="sublist__link" >Credit Cards</a ></li>
+                                <li class="sublist__item"><a href="business/index.html" class="sublist__link" >Business Loans</a ></li>
+							</ul>
+
+						</li>
+						<li class="quicklinks__listItem">
+							<button class="quicklinks__link quicklinks__link--support"><i class="gcu gcu-triangle-left"></i> Services</button>
+
+							<ul class="quicklinks__sublist quicklinks__sublist--support">
+                                <li class="sublist__item"><a href="onlineservices/index.html" class="sublist__link" >Online Services</a ></li>
+                                <li class="sublist__item"><a href="paymyloan/index.html" class="sublist__link" >Pay My Loan</a ></li>
+                                <li class="sublist__item"><a href="https://www.myglobalcurewards.org/" class="sublist__link" >Debit Rewards</a ></li>
+                                <li class="sublist__item"><a href="https://www.dreampoints.com/globalcu/login.php" class="sublist__link" >Credit Rewards</a ></li>
+                                <li class="sublist__item"><a href="investments/index.html" class="sublist__link" >Investment Services</a ></li>
+								<li class="sublist__item"><a href="locations/index.html" class="sublist__link" >Branches & ATMs</a ></li>
+							    <li class="sublist__item"><a href="https://www.fuzeqna.com/globalanswers/ext/kbsearch.aspx?catid=160" class="sublist__link" >Rates</a ></li>
+							</ul>
+						</li>
+						<li class="quicklinks__listItem">
+							<button class="quicklinks__link quicklinks__link--online-banking"><i class="gcu gcu-triangle-left"></i> Global Citizens</button >
+
+							<ul class="quicklinks__sublist quicklinks__sublist--online-banking">
+                            	<li class="sublist__item"><a href="community/index.html" class="sublist__link" >Community Events</a ></li>
+                                <li class="sublist__item"><a href="membership/index.html" class="sublist__link" >Membership</a ></li>
+								<li class="sublist__item"><a href="about/index.html" class="sublist__link" >About Us</a ></li>
+								<li class="sublist__item"><a href="careers/index.html" class="sublist__link" >Careers</a ></li>
+							    <li class="sublist__item"><a href="contactus/index.html" class="sublist__link" >Contact Us</a ></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+<!--
+
+
+	<section class="flipperFS" style="background-image: url('/images/RicGendron_web.jpg');">
+		<div class="container">
+			<div class="flipperFS__wrapper">
+				<div class="flipperFS__content"><b>We</b> <span class="underline">Believe in this Place</span></div>
+			</div>
+		</div>
+	</section>
+
+-->
+
+	<section class="tinyTreasure">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 visible-xs">
+					<h3 class="tinyTreasure__heading">GLOBAL’S TINY TREASURE</h3>
+					<span class="tinyTreasure__date">November 2017</span>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<img src="images/tinytreasure/NickSpanjer.png" alt="Nick Spanjer profile image" class="tinyTreasure__image"/>
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<h3 class="tinyTreasure__heading hidden-xs">GLOBAL’S TINY TREASURE</h3>
+					<span class="tinyTreasure__date hidden-xs">November 2017</span>
+					<h4 class="tinyTreasure__title">Nick Spanjer</h4>
+					<p class="tinyTreasure__content">Nick Spanjer started Alleyworks Photography in 2016 after taking pictures for a few years in and around the Pacific Northwest. Beginning with landscapes of Downtown Spokane and the Canadian Rockies, Nick has begun to expand into other projects in the region. A native of Cheney, Washington, and graduate of Eastern Washington University, Nick learned most of what he knows of photography from his parents, who have been active in taking photos for decades.</p>
+					<a href="https://goo.gl/LEjjjZ" target="-blank" class="tinyTreasure__button button">Learn more</a >
+				</div>
+			</div>
+		</div>
+	</section>
+  
+
+
+	<!--      <section class="featureSetA">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-xs-12 col-sm-5">
+				    <p class="featureSetA__preheading">Looking to buy a new car?</p>
+				    <h3 class="featureSetA__heading">SHOP NOW</h3>
+				    <a href="#" class="featureSetA__button button" >Learn More</a >
+				    <p class="featureSetA__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ducimus ea error minima non odit optio placeat provident, quaerat repellat? Consectetur eaque impedit in incidunt ipsam modi, ratione sequi. Voluptas?</p>
+			    </div>
+			    <div class="col-xs-12 col-sm-7">
+			   </div>
+		    </div>
+	    </div>
+    </section> -->
+
+
+
+	</div> 
+	<section class="featureSetB">
+		<div class="featureSetB__contentWrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-8">
+						<h3 class="featureSetB__title">Become a Member!</h3>
+						<p class="featureSetB__content">Experience the difference of credit union membership. When you join Global you're more than a customer, you're a member and an owner. Your membership gives you access to a suite of products designed with you in mind.</p>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<a href="#" class="featureSetB__button button button--blue" >Open an Account Today!</a >
+						<p class="featureSetB__subText">Wondering if you qualify for membership? <a href="https://www.fuzeqna.com/globalanswers/ext/kbdetail.aspx?kbid=2184">Click here</a> to view our membership eligibility.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="featureSetB__overlay"></div>
+	</section>
+	<div class="clearfix"></div>
+
+	<div class="container">		
+
+
+
+				
+		<div class="gcuChat">
+			<div class="gcuChat__icon">
+				<i class="gcu gcu-chat"></i>
+			</div>
+			<div class="gcuChat__title">
+				<a id="_lpChatBtn" href='#' target='chat72874577'  oiinClick="lpButtonCTTUrl = 'https://sales.liveperson.net/hc/72874577/?cmd=file&file=visitorWantsToChat&site=72874577&imageUrl=https://sales.liveperson.net/hcp/Gallery/ChatButton-Gallery/English/General/1a&referrer='+escape(document.location); lpButtonCTTUrl = (typeof(lpAppendVisitorCookies) != 'undefined' ? lpAppendVisitorCookies(lpButtonCTTUrl) : lpButtonCTTUrl); lpButtonCTTUrl = ((typeof(lpMTag)!='undefined' && typeof(lpMTag.addFirstPartyCookies)!='undefined')?lpMTag.addFirstPartyCookies(lpButtonCTTUrl):lpButtonCTTUrl);window.open(lpButtonCTTUrl,'chat72874577','width=472,height=320,resizable=yes');return false;" class="gcu__link" >Chat</a>
+			</div>
+		</div>
+
+				
+
+
+
+		
+		<!-- <div class="overlay">
+				<div class="modalPopUp">
+					<div class="modalPopUp__content">
+						<h4><b>Great News!</b></h4>
+						<p>Your eBranch experience is being<br >upgraded on April 26, 2017.</p>
+						<p>Update your email to get the latest news. <br > <a href="#" >Click here</a> to learn more.</p>
+						<a target="_blank" class="modalPopUp__link" href="https://www.webteller.org/HomeBanking/SignIn.aspx">Continue to login</a >
+					</div>
+				</div>
+			</div>  -->
+
+		<style>
+
+		</style >
+				
+
+
+			</div>
+			<div class="clearfix"></div>
+
+
+
+
+
+										<footer>
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-3">
+									<div class="footerFeatureSet">
+										<img src="images/globalCU_logo.png" alt="" class="footerFeatureSet__image" >
+										<ul class="footerFeatureSet__socialLinks">
+											<li class="footerFeatureSet__socialIcon"><a href="bumpc124.html?linkURL=https://www.facebook.com/globalcu" target="_blank" class="footerFeatureSet__socialLink" ><i class="gcu gcu-facebook"></i></a ></li>
+											<li class="footerFeatureSet__socialIcon"><a href="bump0215.html?linkURL=https://twitter.com/global_cu" target="_blank" class="footerFeatureSet__socialLink" ><i class="gcu gcu-twitter"></i></a ></li>
+											<li class="footerFeatureSet__socialIcon"><a href="bumpc546.html?linkURL=https://www.linkedin.com/company/global-credit-union" target="_blank" class="footerFeatureSet__socialLink" ><i class="gcu gcu-linkedin"></i></a ></li>
+											<li class="footerFeatureSet__socialIcon"><a href="bump60ba.html?linkURL=https://instagram.com/global_cu/" target="_blank" class="footerFeatureSet__socialLink" ><i class="gcu gcu-instagram"></i></a ></li>
+											<li class="footerFeatureSet__socialIcon"><a href="bumpa80a.html?linkURL=http://vimeopro.com/globalcu/globalcu" target="_blank" class="footerFeatureSet__socialLink" ><i class="gcu gcu-vimeo"></i></a ></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="footerFeatureSet">
+										<h6 class="footerFeatureSet__title">About Us</h6>
+										<ul class="footerFeatureSet__menu">
+											<li class="footerFeatureSet__item">
+												<a href="careers/index.html" class="footerFeatureSet__link">Careers</a >
+											</li>
+											<li class="footerFeatureSet__item">
+												<a href="community/index.html" class="footerFeatureSet__link">In The Community</a >
+											</li>
+											<li class="footerFeatureSet__item">
+												<a href="terms/index.html" class="footerFeatureSet__link">Terms of Use</a >
+											</li>
+											<li class="footerFeatureSet__item">
+												<a href="globalanswers/index0bca.html?fkbid=1632" class="footerFeatureSet__link">DISCLOSURES</a >
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3">
+									<div class="footerFeatureSet">
+										<h6 class="footerFeatureSet__title">Resources</h6>
+										<ul class="footerFeatureSet__menu">
+											<li class="footerFeatureSet__item">
+												<a href="credit/index.html" class="footerFeatureSet__link">Credit</a >
+											</li>
+											<li class="footerFeatureSet__item">
+												<a href="home/index.html" class="footerFeatureSet__link">Home Buying</a >
+											</li>
+											<li class="footerFeatureSet__item">
+												<a href="auto/index.html" class="footerFeatureSet__link">Auto Buying</a >
+											</li>
+											<li class="footerFeatureSet__item">
+												<a href="globalanswers/index4f33.html?fkbid=2901" class="footerFeatureSet__link">Avoid Foreclosure</a >
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-xs-12 col-sm-3">
+									<div class="footerFeatureSet">
+										<div class="hidden-xs">
+											<h6 class="footerFeatureSet__title">Contact Us</h6>
+											<a href="tel:+41 265 880 459" class="footerFeatureSet__phone">+41 265 880 459</a>
+                                            
+										<a class="footerFeatureSet__phone footerFeatureSet__supervisorCommittee" href="globalanswers/indexc5d2.html?fkbid=2265">Supervisory Committee</a><br>
+										</div>
+
+										<div class="row">
+											<div class="col-xs-6 visible-xs">
+												<h6 class="footerFeatureSet__title">Contact Us</h6>
+												<a href="tel:+41 265 880 459" class="footerFeatureSet__phone">+41 265 880 459</a>
+                                                <a class="footerFeatureSet__phone footerFeatureSet__supervisorCommittee" href="globalanswers/indexc5d2.html?fkbid=2265">Supervisory Committee</a><br>
+											</div>
+                                            <div class="col-xs-3 col-sm-10">
+											<p style="color: #fff;">On Approved Credit</p>
+                                            </div>
+											<div class="col-xs-3 col-sm-6">
+											<a href="https://www.ncua.gov/Pages/default.aspx" target="_blank"><img src="images/NCUA_white.jpg" alt="Federally insured by ncua" style="padding-top:10px;"></a>
+											
+											</div>
+											<div class="col-xs-3 col-sm-4">
+											<a href="https://portal.hud.gov/hudportal/HUD" target="_blank">	<img src="images/eho.png" alt="equal housing opportunity" ></a>
+											</div>
+                                        </div>
+										
+										
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xs-12 text-center">
+							<a target="_blank" href="#" ><img style="max-width: 100px;" src="images/2017-new/apple-badge.png" alt="Get the app on the App Store" ></a>
+							<a target="_blank" href="#" ><img style="max-width: 100px" src="images/2017-new/googlePlay-badge.png" alt="Get the app on Google Play" ></a>
+						</div>
+
+						<div class="clearfix"></div>
+
+
+
+					</footer>
+					<div class="subFooter">
+						<span class="subFooter__content">COPYRIGHT 2017 by Global . ALL RIGHTS RESERVED.</span>
+					</div>
+					
+
+			<!-- BEGIN LivePerson Monitor. --><script language='javascript'> var lpMTagConfig = {'lpServer' : "sales.liveperson.net",'lpNumber' : "72874577",'lpProtocol' : "https"}; function lpAddMonitorTag(src){if(typeof(src)=='undefined'||typeof(src)=='object'){src=lpMTagConfig.lpMTagSrc?lpMTagConfig.lpMTagSrc:'/hcp/html/mTag.js';}if(src.indexOf('http')!=0){src=lpMTagConfig.lpProtocol+"://"+lpMTagConfig.lpServer+src+'?site='+lpMTagConfig.lpNumber;}else{if(src.indexOf('site=')<0){if(src.indexOf('?')<0)src=src+'?';else src=src+'&';src=src+'site='+lpMTagConfig.lpNumber;}};var s=document.createElement('script');s.setAttribute('type','text/javascript');s.setAttribute('charset','iso-8859-1');s.setAttribute('src',src);document.getElementsByTagName('head').item(0).appendChild(s);} if (window.attachEvent) window.attachEvent('onload',lpAddMonitorTag); else window.addEventListener("load",lpAddMonitorTag,false);</script><!-- END LivePerson Monitor. -->
+
+
+	</body>
+
+<!-- Mirrored from www.globalcu.org/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Nov 2017 05:29:00 GMT -->
+</html>
